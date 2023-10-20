@@ -36,7 +36,7 @@ export const Default: Story = {
     },
     template: `
         <form>
-          <app-input-test [value]="value" [disabled]="disabled"></app-input-test>
+          <app-input [value]="value" [disabled]="disabled"></app-input>
           <!-- Adding an error message display in the story -->
           <div *ngIf="!value && value !== null">
             <small class="error-text">This field is required.</small>
