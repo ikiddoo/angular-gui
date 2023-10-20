@@ -1,0 +1,4 @@
+input[type="text"]:disabled {
+  border-color: #61616b;
+  color: #61616b;
+}
